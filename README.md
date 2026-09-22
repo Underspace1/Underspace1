@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:0d1117&height=200&section=header&text=Underspace&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=chill%20dev%20%E2%80%A2%20rust%20%E2%80%A2%20osu!&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://raw.githubusercontent.com/Underspace1/Underspace1/main/assets/header.svg" width="100%"/>
 
 <a href="https://github.com/Underspace1">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Hey,+I'm+Underspace+%F0%9F%91%8B;Rust+tinkerer+%F0%9F%A6%80;osu!+collector+%2B+builder;Currently+chilling+in+the+terminal;Open+to+cool+side+projects&font=Fira+Code&center=true&width=550&height=45&color=A855F7&vCenter=true&size=22&pause=1200" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Rust+tinkerer+%F0%9F%A6%80;osu!+collector+%2B+builder;Currently+chilling+in+the+terminal;Open+to+cool+side+projects&font=Fira+Code&center=true&width=550&height=40&color=8f8f9e&vCenter=true&size=18&pause=1200" alt="Typing SVG" />
 </a>
 
 <br/>
