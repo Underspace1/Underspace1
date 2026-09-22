@@ -1,0 +1,43 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dotgrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#e6e6ee"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="200" fill="#fdfdfd"/>
+  <rect width="800" height="200" fill="url(#dotgrid)"/>
+
+  <g stroke="#c9c9d6" stroke-width="1.2" fill="none">
+    <polyline points="55,18 88,58 128,32 168,72 210,42"/>
+  </g>
+  <g fill="#8f8f9e">
+    <circle cx="55" cy="18" r="3"/>
+    <circle cx="88" cy="58" r="3"/>
+    <circle cx="128" cy="32" r="3"/>
+    <circle cx="168" cy="72" r="3"/>
+    <circle cx="210" cy="42" r="3.5"/>
+  </g>
+  <circle cx="272" cy="92" r="3" fill="#8f8f9e"/>
+
+  <g stroke="#c9c9d6" stroke-width="1.2" fill="none">
+    <polyline points="375,88 418,24 460,88 505,32 418,24"/>
+    <line x1="418" y1="24" x2="460" y2="88"/>
+  </g>
+  <g fill="#8f8f9e">
+    <circle cx="375" cy="88" r="3"/>
+    <circle cx="418" cy="24" r="3.5"/>
+    <circle cx="460" cy="88" r="3"/>
+    <circle cx="505" cy="32" r="3"/>
+  </g>
+
+  <g stroke="#c9c9d6" stroke-width="1.2">
+    <line x1="705" y1="14" x2="765" y2="50"/>
+  </g>
+  <g fill="#8f8f9e">
+    <circle cx="705" cy="14" r="3"/>
+    <circle cx="765" cy="50" r="3"/>
+  </g>
+
+  <text x="40" y="150" font-family="'Courier New', Consolas, monospace" font-size="34" font-weight="bold" fill="#161616">👋 Hi there! I'm Underspace1</text>
+</svg>
