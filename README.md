@@ -13,7 +13,7 @@
 
 </div>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6e40c9,100:0d1117&height=3&width=100%" width="100%"/>
 
 ## 🧭 About me
 
@@ -24,39 +24,47 @@
 - 🧪 This profile is a permanent work-in-progress — just like everything else I ship.
 - 📫 Reach me by opening an issue on any repo below — I read everything.
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6e40c9,100:0d1117&height=3&width=100%" width="100%"/>
 
 ## 🛠️ Tech & tools
 
 <div align="center">
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<img src="https://skillicons.dev/icons?i=rust,python,ts,cpp,git,vscode,linux,bash&theme=dark" alt="Skill icons"/>
+
+<br/><br/>
+
 ![osu!](https://img.shields.io/badge/osu!-FF66AA?style=for-the-badge&logo=osu&logoColor=white)
 
 </div>
 
 > 💡 Not all of these have public repos yet — the profile grows as the commits do.
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6e40c9,100:0d1117&height=3&width=100%" width="100%"/>
+
+## 🎯 Currently building
+
+<div align="center">
+
+### [`osu-collect`](https://github.com/Underspace1/osu-collect)
+A Rust tool for managing and organizing osu! collections.
+
+![Top Language](https://img.shields.io/github/languages/top/Underspace1/osu-collect?style=for-the-badge&color=a855f7)
+![Last Commit](https://img.shields.io/github/last-commit/Underspace1/osu-collect?style=for-the-badge&color=a855f7)
+![Stars](https://img.shields.io/github/stars/Underspace1/osu-collect?style=for-the-badge&color=a855f7)
+![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6e40c9,100:0d1117&height=3&width=100%" width="100%"/>
 
 ## 📊 GitHub stats
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Underspace1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&count_private=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Underspace1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
-
 <img src="https://streak-stats.demolab.com/?user=Underspace1&theme=tokyonight&hide_border=true&background=0d1117&ring=a855f7&fire=a855f7&currStreakLabel=a855f7" alt="GitHub Streak"/>
 
 </div>
-
-<br/>
 
 ## 🐍 Contribution snake
 
@@ -70,15 +78,41 @@
 
 </div>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6e40c9,100:0d1117&height=3&width=100%" width="100%"/>
 
-## 🏆 Trophies
+## 🏅 Achievements
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Underspace1&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies"/>
+![Rust Enthusiast](https://img.shields.io/badge/🦀-Rust_Enthusiast-000000?style=for-the-badge)
+![osu! Player](https://img.shields.io/badge/🎮-osu!_Player-FF66AA?style=for-the-badge)
+![Night Owl](https://img.shields.io/badge/🌙-Night_Owl_Coder-6e40c9?style=for-the-badge)
+![Chill Mode](https://img.shields.io/badge/🧊-Chill_Mode:_ON-0d1117?style=for-the-badge)
+![Always Shipping](https://img.shields.io/badge/🚀-Always_Shipping-a855f7?style=for-the-badge)
 
 </div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6e40c9,100:0d1117&height=3&width=100%" width="100%"/>
+
+<details>
+<summary>🎲 A few fun facts (click to expand)</summary>
+<br/>
+
+- 🎮 **Favorite game:** osu! — obviously.
+- 🦀 **Currently obsessed with:** Rust's borrow checker (love-hate relationship).
+- ☕ **Fuel:** whatever's in reach at 2am.
+- 🎧 **Coding soundtrack:** lo-fi, always.
+- 🛠️ **Next thing to build:** check the pinned repos, it's probably already started.
+
+</details>
 
 <br/>
 
