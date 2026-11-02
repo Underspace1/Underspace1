@@ -34,11 +34,11 @@ let approach = ["experiment", "learn", "iterate"];
 
 <p align="center">
   <a href="https://github.com/Underspace1?tab=overview">
-    <img src="https://streak-stats.demolab.com?user=Underspace1&amp;hide_border=true&amp;background=10110E&amp;stroke=393D2D&amp;ring=D6FF5F&amp;fire=D6FF5F&amp;currStreakNum=F4F3E8&amp;sideNums=F4F3E8&amp;currStreakLabel=D6FF5F&amp;sideLabels=B0B1A5&amp;dates=B0B1A5" width="600" alt="Live GitHub contribution stats: total contributions, current streak and longest streak for Underspace1" />
+    <img src="./assets/streak.svg" width="600" alt="GitHub stats over the last 365 days: contributions, current streak and longest streak in this window. Updated daily; see the date on the card." />
   </a>
 </p>
 
-<p align="center"><sub>Live GitHub activity · Click the card to open my profile.</sub></p>
+<p align="center"><sub>GitHub activity over the last 365 days · Updated daily · Click to open my profile.</sub></p>
 
 ### 04 / One more round
 
