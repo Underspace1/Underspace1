@@ -1,65 +1,93 @@
+<!--
 <p align="center">
-  <img src="./assets/header.gif" width="100%" alt="Underspace — animated oversized typography, Rust, osu! and side quests. Black, ivory and acid green." />
+  <img src="./assets/profile-cover.svg" width="100%" alt="Underspace — animated profile banner" />
+</p>
+-->
+
+<h1 align="center">Mikael · Underspace</h1>
+
+<p align="center">
+  Software engineering student at Epitech<br />
+  I build desktop apps, web interfaces, and tools that connect AI services.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Underspace1?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-24271c?style=for-the-badge&amp;labelColor=10110e&amp;color=d6ff5f" alt="Explore my repositories" /></a>
-  <a href="https://github.com/Underspace1/osu-collect"><img src="https://img.shields.io/badge/BUILDING-OSU--COLLECT-24271c?style=for-the-badge&amp;labelColor=10110e&amp;color=d6ff5f" alt="Discover osu-collect" /></a>
+  <a href="https://github.com/Underspace1/relais"><img src="https://img.shields.io/badge/Featured-Relais-d6ff5f?style=for-the-badge&amp;labelColor=10110e" alt="Featured project: Relais" /></a>
+  <a href="https://vyfz.online"><img src="https://img.shields.io/badge/Portfolio-vyfz.online-d6ff5f?style=for-the-badge&amp;labelColor=10110e" alt="Portfolio" /></a>
 </p>
 
-### 01 / Behind the handle
+## 01 / Featured project — Relais
 
-Chill dev. Rust enthusiast. Probably testing something against **osu!**.
-I build things when the idea is fun — usually with lo-fi in one tab and docs in the other.
+**A portable Windows app that brings multiple AI services into one conversation.**
 
-```rust
-let developer = "Underspace";
-let current_quest = "osu-collect";
-let approach = ["experiment", "learn", "iterate"];
-// Permanent work in progress. Enjoy the process.
-```
+Ask for a logo and Relais can recommend Gemini, explain why, and deliver the image back into the conversation. The same workflow can send a research request to Perplexity or ask ChatGPT and Grok for a second opinion. You can approve the recommendation or let Claude choose automatically.
 
+<!--
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,python,ts,cpp,git,linux,bash,vscode&amp;theme=dark&amp;perline=8" alt="Tools: Rust, Python, TypeScript, C++, Git, Linux, Bash and VS Code" />
-</p>
-
-### 02 / Side quests
-
-| Project | What lives here |
-| :--- | :--- |
-| **[osu-collect](https://github.com/Underspace1/osu-collect)** | A Rust tool for managing and organizing osu! collections. |
-| **[Romegaweb](https://github.com/Underspace1/Romegaweb)** | My HTML corner of GitHub. |
-
-### 03 / Keep the streak alive
-
-<p align="center">
-  <a href="https://github.com/Underspace1?tab=overview">
-    <img src="./assets/streak.svg" width="600" alt="GitHub stats over the last 365 days: contributions, current streak and longest streak in this window. Updated daily; see the date on the card." />
+  <a href="https://github.com/Underspace1/relais#le-pont-entre-les-ia">
+    <img src="./assets/relais-flow.svg" width="100%" alt="Animated diagram showing a request passing through Relais to an AI service and returning to the conversation." />
   </a>
 </p>
+-->
 
-<p align="center"><sub>GitHub activity over the last 365 days · Updated daily · Click to open my profile.</sub></p>
+- **Traceable handoffs.** The recommendation, selected provider, and result stay together in the conversation.
+- **Flexible integrations.** Relais connects to command-line tools, APIs, and local models through tools such as Ollama.
+- **Desktop architecture.** A Node.js server streams updates to the interface, which runs inside a C# Windows launcher with WebView2.
 
-### 04 / One more round
-
-<p align="center">
-  <img src="./assets/snake.gif" width="100%" alt="Ivory and acid green snake eating a dense arcade grid. Decorative animation with synthetic cells, independent of real GitHub contributions." />
-</p>
-
-<p align="center"><sub>Arcade mode · Synthetic grid, just for the animation.</sub></p>
+[Explore the repository](https://github.com/Underspace1/relais) · [See how the bridge works](https://github.com/Underspace1/relais#le-pont-entre-les-ia) · [Read the architecture](https://github.com/Underspace1/relais#structure)
 
 <details>
-<summary>Still mode — static versions of the animations</summary>
-
-![Underspace kinetic typography, static version](./assets/header.png)
-![Snake arcade grid, static version](./assets/snake-static.png)
-
+<summary>See Relais in action</summary>
+<br />
+<img src="https://raw.githubusercontent.com/Underspace1/relais/main/docs/screenshots/pont-ia.png" width="840" alt="Relais recommends an AI service for generating an image and explains its choice." />
 </details>
 
----
+## 02 / More projects
 
-<p align="center">
-  <strong>Got an idea? Found a bug?</strong><br />
-  <a href="https://github.com/Underspace1/osu-collect/issues">Open an issue on osu-collect</a> · <a href="https://github.com/Underspace1?tab=repositories">Browse my projects</a><br /><br />
-  <sub>Stay curious. Keep it chill. Build something fun.</sub>
-</p>
+### Dancing! · Replay-to-video editor
+
+**A Windows app for turning a gameplay replay into a finished video.** Choose an overlay, customize the intro and results screen, then preview a 12-second clip before exporting.
+
+The preview and export share the same drawing engine. It synchronizes the overlay with each frame of the replay before FFmpeg composes the final video.
+
+[Explore Dancing!](https://github.com/Underspace1/Dancing) · [Read the technical documentation](https://github.com/Underspace1/Dancing/blob/main/docs/TECHNIQUE.md)
+
+<details>
+<summary>See the editor</summary>
+<br />
+<img src="https://raw.githubusercontent.com/Underspace1/Dancing/main/previews/1-app-rendu.jpg" width="840" alt="Dancing! editor showing the replay preview and video settings." />
+</details>
+
+### Romega · Website & announcements
+
+**The web platform for a Roblox launcher.** Romega combines a responsive website with an admin interface for publishing announcements that appear inside the launcher.
+
+The public repository includes the website, the Python API and its tests, session-based authentication, and the JSON feed consumed by the launcher.
+
+[Visit Romega](https://romega.online) · [Explore the web repository](https://github.com/Underspace1/Romegaweb)
+
+<details>
+<summary>See the launcher</summary>
+<br />
+<img src="https://raw.githubusercontent.com/Underspace1/Romegaweb/main/website/assets/accueil.jpg" width="840" alt="Romega launcher home screen with a published announcement." />
+</details>
+
+## 03 / Programming languages
+
+- **JavaScript** for interfaces, local servers, and video rendering logic in Relais and Dancing!.
+- **TypeScript** for typed JavaScript development.
+- **Python** for the Romega API and backend tests.
+- **C#** for the Relais Windows launcher.
+- **C++** and **Bash**.
+
+I also use **HTML** and **CSS** to build responsive web interfaces.
+
+## 04 / Get in touch
+
+If you’d like to talk about a project or a software engineering opportunity, you can reach me through my [portfolio](https://vyfz.online).
+
+<details>
+<summary>GitHub activity</summary>
+<br />
+<img src="./assets/streak.svg" width="600" alt="GitHub contribution summary for the past 365 days." />
+</details>
