@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="t d">
+  <title id="t">Parcours</title>
+  <desc id="d">2023 : premiers projets en autodidacte. 2024 : stage en cybersécurité au siège du Conseil d'État. 2024 à 2026 : bac STI2D spécialité SIN au lycée Louis-le-Grand. Depuis 2026 : Programme Grande École d'Epitech Paris, 1re année.</desc>
+  <style>
+    .d{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif}
+    .m{font-family:'Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace}
+    .pulse{animation:p 2.4s ease-out infinite;transform-origin:860px 108px}
+    @keyframes p{0%{opacity:.6;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+    @media (prefers-reduced-motion:reduce){.pulse{animation:none;opacity:0}}
+  </style>
+  <rect width="1000" height="240" rx="20" fill="#0b0b0a"/>
+  <rect x=".5" y=".5" width="999" height="239" rx="19.5" fill="none" stroke="#2a2824"/>
+
+  <line x1="60" y1="108" x2="860" y2="108" stroke="#3a372f" stroke-width="2"/>
+  <line x1="860" y1="108" x2="940" y2="108" stroke="#e2c799" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <g class="m" font-size="13" fill="#e2c799" text-anchor="middle">
+    <text x="130" y="82">2023</text>
+    <text x="370" y="82">2024</text>
+    <text x="615" y="82">2024 – 2026</text>
+    <text x="860" y="82">2026 →</text>
+  </g>
+
+  <g fill="#0b0b0a" stroke="#e2c799" stroke-width="2">
+    <circle cx="130" cy="108" r="7"/>
+    <circle cx="370" cy="108" r="7"/>
+    <circle cx="615" cy="108" r="7"/>
+  </g>
+  <circle class="pulse" cx="860" cy="108" r="9" fill="#e2c799"/>
+  <circle cx="860" cy="108" r="9" fill="#e2c799"/>
+
+  <g class="d" text-anchor="middle">
+    <text x="130" y="150" font-size="16" font-weight="700" fill="#f3ede2">Premiers projets</text>
+    <text x="130" y="172" font-size="13" fill="#cfc6b6">En autodidacte, sur GitHub</text>
+
+    <text x="370" y="150" font-size="16" font-weight="700" fill="#f3ede2">Stage cybersécurité</text>
+    <text x="370" y="172" font-size="13" fill="#cfc6b6">Siège du Conseil d'État</text>
+    <text x="370" y="190" font-size="13" fill="#948b7c">Stage de seconde</text>
+
+    <text x="615" y="150" font-size="16" font-weight="700" fill="#f3ede2">Bac STI2D · SIN</text>
+    <text x="615" y="172" font-size="13" fill="#cfc6b6">Lycée Louis-le-Grand</text>
+    <text x="615" y="190" font-size="13" fill="#948b7c">Première et terminale</text>
+
+    <text x="860" y="150" font-size="16" font-weight="700" fill="#e2c799">Epitech Paris</text>
+    <text x="860" y="172" font-size="13" fill="#cfc6b6">Programme Grande École</text>
+    <text x="860" y="190" font-size="13" fill="#948b7c">1re année, en cours</text>
+  </g>
+</svg>

@@ -1,43 +1,52 @@
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="t d">
+  <title id="t">Mikael Roca · Underspace</title>
+  <desc id="d">Étudiant en 1re année à Epitech Paris. Apprend le C, à l'aise avec l'IA. Un terminal affiche : whoami, école, compilation en cours.</desc>
+  <style>
+    .d{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif}
+    .m{font-family:'Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.cur{animation:none}}
+  </style>
   <defs>
-    <pattern id="dotgrid" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#e6e6ee"/>
-    </pattern>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#e2c799" opacity=".09"/></pattern>
+    <radialGradient id="glow" cx="78%" cy="30%" r="60%"><stop offset="0" stop-color="#e2c799" stop-opacity=".10"/><stop offset="1" stop-color="#e2c799" stop-opacity="0"/></radialGradient>
   </defs>
 
-  <rect width="800" height="200" fill="#fdfdfd"/>
-  <rect width="800" height="200" fill="url(#dotgrid)"/>
+  <rect width="1000" height="320" rx="20" fill="#0b0b0a"/>
+  <rect width="1000" height="320" rx="20" fill="url(#dots)"/>
+  <rect width="1000" height="320" rx="20" fill="url(#glow)"/>
+  <rect x=".5" y=".5" width="999" height="319" rx="19.5" fill="none" stroke="#2a2824"/>
 
-  <g stroke="#c9c9d6" stroke-width="1.2" fill="none">
-    <polyline points="55,18 88,58 128,32 168,72 210,42"/>
-  </g>
-  <g fill="#8f8f9e">
-    <circle cx="55" cy="18" r="3"/>
-    <circle cx="88" cy="58" r="3"/>
-    <circle cx="128" cy="32" r="3"/>
-    <circle cx="168" cy="72" r="3"/>
-    <circle cx="210" cy="42" r="3.5"/>
-  </g>
-  <circle cx="272" cy="92" r="3" fill="#8f8f9e"/>
+  <!-- identité -->
+  <text class="m" x="48" y="72" font-size="13" fill="#e2c799" letter-spacing="3">UNDERSPACE · PARIS</text>
+  <text class="d" x="45" y="142" font-size="64" font-weight="800" fill="#f3ede2" letter-spacing="-1.5">Mikael <tspan fill="#e2c799">Roca</tspan></text>
+  <text class="d" x="48" y="180" font-size="20" fill="#cfc6b6">Étudiant en 1re année à Epitech Paris</text>
 
-  <g stroke="#c9c9d6" stroke-width="1.2" fill="none">
-    <polyline points="375,88 418,24 460,88 505,32 418,24"/>
-    <line x1="418" y1="24" x2="460" y2="88"/>
+  <g class="m" font-size="13">
+    <rect x="48" y="210" width="150" height="30" rx="15" fill="#151412" stroke="#e2c799"/>
+    <text x="123" y="230" text-anchor="middle" fill="#e2c799">Apprend le C</text>
+    <rect x="208" y="210" width="170" height="30" rx="15" fill="#151412" stroke="#34312a"/>
+    <text x="293" y="230" text-anchor="middle" fill="#f3ede2">IA · Claude Code</text>
+    <rect x="388" y="210" width="180" height="30" rx="15" fill="#151412" stroke="#34312a"/>
+    <text x="478" y="230" text-anchor="middle" fill="#f3ede2">Rust · JS · Python</text>
   </g>
-  <g fill="#8f8f9e">
-    <circle cx="375" cy="88" r="3"/>
-    <circle cx="418" cy="24" r="3.5"/>
-    <circle cx="460" cy="88" r="3"/>
-    <circle cx="505" cy="32" r="3"/>
-  </g>
+  <text class="m" x="48" y="282" font-size="12" fill="#948b7c">vyfz.online  ·  github.com/Underspace1</text>
 
-  <g stroke="#c9c9d6" stroke-width="1.2">
-    <line x1="705" y1="14" x2="765" y2="50"/>
+  <!-- terminal -->
+  <g>
+    <rect x="600" y="48" width="352" height="224" rx="12" fill="#121211" stroke="#2a2824"/>
+    <path d="M600 60a12 12 0 0 1 12-12h328a12 12 0 0 1 12 12v18H600z" fill="#191816"/>
+    <circle cx="620" cy="63" r="5" fill="#3a3730"/><circle cx="638" cy="63" r="5" fill="#3a3730"/><circle cx="656" cy="63" r="5" fill="#e2c799" opacity=".7"/>
+    <text class="m" x="776" y="67" font-size="11" fill="#948b7c" text-anchor="middle">~/underspace</text>
+    <g class="m" font-size="13">
+      <text class="ty" style="animation-delay:.2s" x="620" y="108"><tspan fill="#e2c799">$</tspan><tspan fill="#f3ede2"> whoami</tspan></text>
+      <text class="ty" style="animation-delay:.6s" x="620" y="130" fill="#cfc6b6">mikael · underspace</text>
+      <text class="ty" style="animation-delay:1.1s" x="620" y="162"><tspan fill="#e2c799">$</tspan><tspan fill="#f3ede2"> cat ecole.txt</tspan></text>
+      <text class="ty" style="animation-delay:1.5s" x="620" y="184" fill="#cfc6b6">Epitech Paris · 1re année</text>
+      <text class="ty" style="animation-delay:2s" x="620" y="216"><tspan fill="#e2c799">$</tspan><tspan fill="#f3ede2"> gcc main.c -o apprendre</tspan></text>
+      <text class="ty" style="animation-delay:2.5s" x="620" y="238" fill="#cfc6b6">compilation en cours</text>
+      <rect class="cur" x="784" y="227" width="8" height="15" fill="#e2c799"/>
+    </g>
   </g>
-  <g fill="#8f8f9e">
-    <circle cx="705" cy="14" r="3"/>
-    <circle cx="765" cy="50" r="3"/>
-  </g>
-
-  <text x="40" y="150" font-family="'Courier New', Consolas, monospace" font-size="34" font-weight="bold" fill="#161616">👋 Hi there! I'm Underspace1</text>
 </svg>

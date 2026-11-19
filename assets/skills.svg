@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" role="img" aria-labelledby="t d">
+  <title id="t">Ce que je sais faire</title>
+  <desc id="d">IA : développement assisté par IA avec Claude Code, plusieurs modèles, prompt engineering, intégration par API et MCP. Code : bases du C en cours à Epitech, notions de JavaScript, Python, Rust, HTML et CSS. Outils : Git, GitHub, Linux, Unix, Docker, Caddy, Cloudflare, VS Code.</desc>
+  <style>
+    .d{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif}
+    .m{font-family:'Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace}
+  </style>
+  <rect width="1000" height="380" rx="20" fill="#0b0b0a"/>
+  <rect x=".5" y=".5" width="999" height="379" rx="19.5" fill="none" stroke="#2a2824"/>
+
+  <!-- IA -->
+  <text class="m" x="40" y="56" font-size="12" letter-spacing="2.5" fill="#e2c799">INTELLIGENCE ARTIFICIELLE</text>
+  <g class="d">
+    <rect x="42" y="88" width="8" height="8" fill="#e2c799" transform="rotate(45 46 92)"/>
+    <text x="62" y="98" font-size="17" font-weight="700" fill="#f3ede2">Développement assisté par IA</text>
+    <text x="62" y="121" font-size="14" fill="#cfc6b6">Projets codés, testés et déployés avec Claude Code.</text>
+
+    <rect x="42" y="158" width="8" height="8" fill="#e2c799" transform="rotate(45 46 162)"/>
+    <text x="62" y="168" font-size="17" font-weight="700" fill="#f3ede2">Plusieurs modèles</text>
+    <text x="62" y="191" font-size="14" fill="#cfc6b6">Claude, ChatGPT, Gemini, Grok, Perplexity, IA locales.</text>
+
+    <rect x="42" y="228" width="8" height="8" fill="#e2c799" transform="rotate(45 46 232)"/>
+    <text x="62" y="238" font-size="17" font-weight="700" fill="#f3ede2">Prompt engineering</text>
+    <text x="62" y="261" font-size="14" fill="#cfc6b6">Des consignes précises pour des résultats fiables.</text>
+
+    <rect x="42" y="298" width="8" height="8" fill="#e2c799" transform="rotate(45 46 302)"/>
+    <text x="62" y="308" font-size="17" font-weight="700" fill="#f3ede2">Intégration</text>
+    <text x="62" y="331" font-size="14" fill="#cfc6b6">IA dans les apps par API, outils branchés via MCP.</text>
+  </g>
+
+  <line x1="540" y1="40" x2="540" y2="340" stroke="#2a2824"/>
+
+  <!-- Code -->
+  <text class="m" x="572" y="56" font-size="12" letter-spacing="2.5" fill="#e2c799">EN COURS À EPITECH</text>
+  <text class="d" x="572" y="96" font-size="17" font-weight="700" fill="#f3ede2">Langage C</text>
+  <text class="m" x="960" y="96" font-size="12" text-anchor="end" fill="#948b7c">bases · débutant</text>
+  <rect x="572" y="108" width="388" height="8" rx="4" fill="#1f1e1b"/>
+  <rect x="572" y="108" width="110" height="8" rx="4" fill="#e2c799"/>
+
+  <text class="m" x="572" y="160" font-size="12" letter-spacing="2.5" fill="#e2c799">LANGAGES &amp; OUTILS</text>
+  <g class="m" font-size="13" fill="#f3ede2">
+    <rect x="572" y="176" width="100" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="622" y="195" text-anchor="middle">JavaScript</text>
+    <rect x="680" y="176" width="70" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="715" y="195" text-anchor="middle">Python</text>
+    <rect x="758" y="176" width="55" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="785.5" y="195" text-anchor="middle">Rust</text>
+    <rect x="821" y="176" width="85" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="863.5" y="195" text-anchor="middle">HTML/CSS</text>
+
+    <rect x="572" y="212" width="47" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="595.5" y="231" text-anchor="middle">Git</text>
+    <rect x="627" y="212" width="70" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="662" y="231" text-anchor="middle">GitHub</text>
+    <rect x="705" y="212" width="62" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="736" y="231" text-anchor="middle">Linux</text>
+    <rect x="775" y="212" width="55" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="802.5" y="231" text-anchor="middle">Unix</text>
+    <rect x="838" y="212" width="70" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="873" y="231" text-anchor="middle">Docker</text>
+
+    <rect x="572" y="248" width="62" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="603" y="267" text-anchor="middle">Caddy</text>
+    <rect x="642" y="248" width="100" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="692" y="267" text-anchor="middle">Cloudflare</text>
+    <rect x="750" y="248" width="77" height="28" rx="6" fill="#151412" stroke="#34312a"/><text x="788.5" y="267" text-anchor="middle">VS Code</text>
+  </g>
+  <text class="d" x="572" y="316" font-size="13" fill="#948b7c">Notions acquises sur mes projets, avec l'aide de l'IA.</text>
+</svg>

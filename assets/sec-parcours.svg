@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-label="Parcours">
+  <rect width="1000" height="64" rx="14" fill="#0b0b0a"/>
+  <rect x=".5" y=".5" width="999" height="63" rx="13.5" fill="none" stroke="#2a2824"/>
+  <rect x="30" y="27" width="10" height="10" fill="#e2c799" transform="rotate(45 35 32)"/>
+  <text x="56" y="42" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="700" fill="#f3ede2">Parcours</text>
+  <text x="968" y="38" text-anchor="end" font-family="'Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" letter-spacing="1" fill="#948b7c">2023 → aujourd'hui</text>
+</svg>

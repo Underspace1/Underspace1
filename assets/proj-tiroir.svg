@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="132" viewBox="0 0 1000 132" role="img" aria-label="tiroir : Drive, Gmail, Agenda et Tâches réunis, avec Gemini intégré.">
+  <rect width="1000" height="132" rx="16" fill="#0b0b0a"/>
+  <rect x=".5" y=".5" width="999" height="131" rx="15.5" fill="none" stroke="#2a2824"/>
+  <text x="32" y="40" font-family="'Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" letter-spacing="2" fill="#e2c799">APP DE BUREAU · GOOGLE + GEMINI</text>
+  <text x="30" y="82" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="800" letter-spacing="-.5" fill="#f3ede2">tiroir</text>
+  <text x="32" y="110" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#cfc6b6">Drive, Gmail, Agenda et Tâches réunis, avec Gemini intégré.</text>
+  <g font-family="'Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12">
+    <rect x="732" y="24" width="114" height="28" rx="14" fill="#151412" stroke="#34312a"/><circle cx="746" cy="38" r="5" fill="#f1e05a"/><text x="758" y="42.5" fill="#f3ede2">JavaScript</text>
+    <rect x="854" y="24" width="114" height="28" rx="14" fill="#151412" stroke="#34312a"/><circle cx="868" cy="38" r="5" fill="#4285f4"/><text x="880" y="42.5" fill="#f3ede2">API Google</text>
+  </g>
+  <text x="968" y="110" text-anchor="end" font-family="'Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#948b7c">github.com/Underspace1/tiroir ↗</text>
+</svg>
