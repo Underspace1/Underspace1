@@ -1,5 +1,5 @@
 <a href="https://vyfz.online">
-  <img src="./assets/header.svg" width="100%" alt="Mikael Roca, alias Underspace. Étudiant en 1re année à Epitech Paris. Apprend le C, à l'aise avec l'IA." />
+  <img src="./assets/banniere.svg" width="100%" alt="Mikael Roca, alias Underspace. Étudiant en 1re année à Epitech Paris. Apprend le C, à l'aise avec l'IA." />
 </a>
 
 <p align="center">
